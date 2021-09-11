@@ -97,7 +97,7 @@ const Index: NextPage<Props> = ({ }) => {
                         <div>
                             {movies.length === 0 ? (
                                 <div className={"h-screen w-full flex justify-center items-center"}>
-                                    Tidak ada data
+                                    No Data Found
                                 </div>
                             ) : (
                                 <div>
