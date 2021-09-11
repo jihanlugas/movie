@@ -165,7 +165,7 @@ const Movie = ({ id }) => {
                                     )}
                                 </div>
                             ) : (
-                                <div className={"h-screen w-screen flex justify-center items-center"}>
+                                <div className={"h-screen w-full flex justify-center items-center"}>
                                     Tidak ada data
                                 </div>
                             )}
