@@ -82,7 +82,7 @@ const Movie = ({ id }) => {
                 <Header />
                 <div className={"max-w-4xl mx-auto"}>
                     {isLoading ? (
-                        <div className={"h-screen w-screen flex justify-center items-center"}>
+                        <div className={"h-screen w-full flex justify-center items-center"}>
                             <AiOutlineLoading3Quarters className={"animate-spin"} size={"5em"} />
                         </div>
                     ) : (
