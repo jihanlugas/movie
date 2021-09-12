@@ -123,7 +123,6 @@ const Index: NextPage<Props> = ({ }) => {
                                                 })}
                                             </div>
                                         </div>
-
                                     </div>
                                     <div>
                                         <div className={"p-4 text-xl text-yellow-500 font-bold"}>
@@ -169,7 +168,7 @@ const Index: NextPage<Props> = ({ }) => {
                                         </div>
                                         {movies.length > limitMovie && (
                                             <div className={"flex justify-center items-center p-4 mb-4"}>
-                                                <div className={"p-4 border rounded-full font-bold"} onClick={() => setLimitMovie(limitMovie + 10)}>
+                                                <div className={"px-4 py-2 border rounded-full font-bold"} onClick={() => setLimitMovie(limitMovie + 10)}>
                                                     <div>Load More</div>
                                                 </div>
                                             </div>
